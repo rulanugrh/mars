@@ -8,7 +8,7 @@
 
 <h1 align='center'>Build</h1>
 
-This is docker combined with flask, html and css. Where the Flask acts as the server that provides port access. Okay, just here's how to install it :
+This is docker combined with flask, html and css. Where the Flask acts as the server that provides port access. Okay, just here's how to build it :
 
 ```console
 kiyo@debian:~$ ls
