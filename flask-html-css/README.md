@@ -6,8 +6,7 @@
     <img src= 'https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3' width=100px/>
 </div>
 
-Install
-=====
+<h1 align='center'>Build</h1>
 This is docker combined with flask, html and css. Where the Flask acts as the server that provides port access. Okay, just here's how to install it :
 ```console
 kiyo@debian:~$ ls
@@ -45,7 +44,7 @@ python              3.7                 869a8debb0fd        About a minute ago  
 ```
 <p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></p>
 
-<h1 align='center'>Create</h1>
+<h1 align='center'>Create Container</h1>
 
 
 ```console
