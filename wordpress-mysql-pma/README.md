@@ -9,10 +9,14 @@ If you want custom your database you must edit this :
 ........
 ```
 If done, you can build 
-`docker compose up -d`
+```console
+docker compose up -d
+```
 
 Stop the container
-`docker compose down`
+```console
+docker compose down
+```
 
 Output
 ======
