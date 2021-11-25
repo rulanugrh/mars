@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  web-apps:
+    container_name: web
+    image: kyzxo/web-apps
+    ports:
+      - 80:8080
