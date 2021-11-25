@@ -1,12 +1,23 @@
 <h1 align='center'>Page Website By Flask</h1>
 
-<div align='center'>
-    <img src='http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)' width=100px />
-    <img src='https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff' width=100px/>
-    <img src= 'https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3' width=100px/>
-</div>
+Docker-Compose
+==============
+Build the image and create container
+```console
+kiyo@alphacentauri:~$ docker-compose up -d
+````
 
-<h1 align='center'>Build</h1>
+Stop the container
+```console
+kiyo@alphacentauri:~$ docker-compose down
+Stopping web ... done
+Removing web ... done
+Removing network root_default
+```
+<p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></p>
+
+Build Dockerfile
+================
 
 ```console
 kiyo@alphacentauri:~$ ls
@@ -44,8 +55,8 @@ python              3.7                 869a8debb0fd        About a minute ago  
 ```
 <p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></p>
 
-<h1 align='center'>Create Container</h1>
-
+Create Container
+================
 
 ```console
 kiyo@alphacentauri:~$ docker container crate --name webserver -p 80:8080 web-apps
