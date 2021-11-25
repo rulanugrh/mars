@@ -1,0 +1,49 @@
+version: '3.3'
+
+services:
+  db:
+    container_name: database
+    image: mysql
+    hostname: db
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=ToStrongPassword
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=ToStrongPassword
+      - MYSQL_DATABASE=wordpress
+    volumes:
+      - db:/var/lib/mysql
+
+  wp:
+    container_name: webapps
+    image: wordpress
+    hostname: wp
+    ports:
+      - 80:80
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=admin
+      - WORDPRESS_DB_PASSWORD=ToStrongPassword
+      - WORDPRESS_DB_NAME=wordpress
+    volumes:
+      - wordpress:/var/www/html
+    depends_on:
+      - db
+
+  pma:
+    container_name: pma
+    image: phpmyadmin
+    hostname: pma
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=db
+      - PMA_USER=admin
+      - PMA_PASSWORD=ToStrongPassword
+    depends_on:
+      - db
+      
+volumes:
+  db:
+  wordpress:
