@@ -39,3 +39,4 @@ echo system($_GET['cmd']);
 Anyway, because I also created a regular `LFI` vulnerability, I tried to access it. It turned out that the `LFI` failed because it had been hardened so the system would display `Forbidden`
 
 <img src=./assets/forbiden.png>
+
