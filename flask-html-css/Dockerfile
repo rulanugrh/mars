@@ -1,5 +1,7 @@
 FROM python:3.7
 
+LABEL Author="Kiyotaka Ayanokouji"
+
 WORKDIR /web
 
 COPY /web/requirements.txt /web/requirements.txt
