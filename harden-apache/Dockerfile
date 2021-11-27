@@ -1,5 +1,7 @@
 FROM php:7.3-apache
 
+LABEL Author="Kiyotaka Ayanokouji"
+
 RUN apt update -y && apt install libapache2-mod-security2 libapache2-mod-evasive apache2-utils nano -y
 
 RUN rm /etc/modsecurity/modsecurity.conf-recommended
