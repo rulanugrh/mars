@@ -62,7 +62,7 @@ services:
       - 443:443
 ```
 
-Untuk dockerfilenya saya config seperti ini :
+For the dockerfile I config like this :
 ```console
 FROM nginx
 
