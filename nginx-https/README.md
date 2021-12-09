@@ -49,7 +49,7 @@ server {
 # Build
 For easy builds, you can use docker-compose so that it directly becomes a container or dockerfile to become an image. Maybe I'll try docker-compose for the Dockerfile and I'll publish it on github
 
-```docker
+```console
 version: '3.3'
 
 services:
@@ -63,7 +63,7 @@ services:
 ```
 
 Untuk dockerfilenya saya config seperti ini :
-```docker
+```console
 FROM nginx
 
 WORKDIR /app
@@ -77,6 +77,21 @@ COPY default-ssl.conf /etc/nginx/conf.d/default-ssl.conf
 ADD /cert/* /etc/cert/
 
 EXPOSE 443
+```
+
+# Create Container & Build Image
+To make it with docker-compose then what should be done like this :
+```console
+kiyo@alphacentauri:~$ docker-compose up -d
+```
+To stop the running container process in docker-compose do this :
+```console
+kiyo@alphacentauri:~$ docker-compose down
+```
+To build the image and run the container with the dockerfile, do it like this :
+```console
+kiyo@alphacentauri:~$ docker build -t nginx-https .
+kiyo@alphacentauri:~$ docker run -it -d -p 80:80 -p 443:443 nginx-https
 ```
 
 > Note : "For certs, you can make your own, I have listed the procedure above"
