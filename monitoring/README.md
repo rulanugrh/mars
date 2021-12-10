@@ -39,3 +39,5 @@ After successfully created, we will then build the image with the command `docke
 kiyo@alphacentauri:~/prometheus$ docker build -t monitoring .
 root@alphacentauri:~/prometheus$ docker run --rm -dp 9090:9090 --name=sample monitoring
 ```
+
+> Note: To use it, you can open the prometheus website to make it easier to implement
