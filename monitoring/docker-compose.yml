@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  monitoring:
+    container_name: monitoring-server
+    image: kyzxo/monitoring
+    ports:
+      - 9090:9090
