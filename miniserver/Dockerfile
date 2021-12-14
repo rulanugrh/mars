@@ -29,3 +29,4 @@ ADD /assets/setup.sh /app/setup.sh
 RUN chmod 777 /app/setup.sh
 RUN ./setup.sh
 EXPOSE 80 3306
+
