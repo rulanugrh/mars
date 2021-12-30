@@ -8,6 +8,8 @@
     <img src= https://img.shields.io/badge/NGINX-16a085?style=for-the-badge&logo=NGINX&logoColor=white />
 </div>
 
+&nbsp;
+
 <div align='center'>
     <img src=https://c.tenor.com/6LyXLgF8ksUAAAAd/anime-gif.gif>
 </div>
