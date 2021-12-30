@@ -25,7 +25,7 @@ Hey, yo guys okay, this time I made some projects from Docker. Anyway, this proj
 - [`CSS3`](https://www.w3schools.com/css/) - Programming language to beautify HTML
 - [`PHP`](https://www.php.net/) - The programming language I use to manage the settings of the application
 - [`NGINX`](https://www.nginx.com/) - API Gateway I used to build this project
-- [`apache`](https://www.apache.org/) - API Gateway which I used to build one of the projects
+- [`Apache`](https://www.apache.org/) - API Gateway which I used to build one of the projects
 - [`ModSecurity`](https://www.modsecurity.org/) - WAF I use to combine with apache
 - [`PhpMyAdmin`](https://www.phpmyadmin.net/) - One of the platforms used to manage databases
 - [`Wordpress`](https://wordpress.com/) - One of the platforms for managing blogs that we want to create
