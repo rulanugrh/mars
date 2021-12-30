@@ -8,6 +8,12 @@
     <img src= https://img.shields.io/badge/NGINX-16a085?style=for-the-badge&logo=NGINX&logoColor=white />
 </div>
 
+<div align='center'>
+    <img src=https://c.tenor.com/6LyXLgF8ksUAAAAd/anime-gif.gif>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 Hey, yo guys okay, this time I made some projects from Docker. Anyway, this project is open source, for example, if you want to have a look and are interested in clone or setup, go ahead. Okay, let's get straight to the topic, for this project there are actually many shortcomings because most of them only use applications, not programming languages.
 
 ## Technology Used
@@ -25,8 +31,8 @@ Hey, yo guys okay, this time I made some projects from Docker. Anyway, this proj
 - [`Prometheus`](https://prometheus.io/) - The monitoring platform I use for one of the projects I created
 
 ## Docker Project
-- [`NGINX/Wordpress/PhpMyAdmin`](https://github.com/ItsArul/docker-project/tree/main/wordpress-mysql-pma) - Is one of the projects which is popular among vocational students in Indonesia
-- ['Flask/HTML/CSS'](https://github.com/ItsArul/docker-project/tree/main/flask-html-css) - A simple project that uses flask as the main medium
+- [`NGINX / Wordpress / PhpMyAdmin`](https://github.com/ItsArul/docker-project/tree/main/wordpress-mysql-pma) - Is one of the projects which is popular among vocational students in Indonesia
+- [`Flask / HTML / CSS`](https://github.com/ItsArul/docker-project/tree/main/flask-html-css) - A simple project that uses flask as the main medium
 - [`Apache / ModSecurity`](https://github.com/ItsArul/docker-project/tree/main/harden-apache) - This is a project that uses apache as the main media where here I am hardening apache
 - [`NGINX`](https://github.com/ItsArul/docker-project/tree/main/nginx-https) - Solo nginx project in which I have SSL installed
 - [`Prometheus`](https://github.com/ItsArul/docker-project/tree/main/monitoring) - Docker project used for monitoring
