@@ -31,6 +31,7 @@ Hey, yo guys okay, this time I made some projects from Docker. Anyway, this proj
 - [`Wordpress`](https://wordpress.com/) - One of the platforms for managing blogs that we want to create
 - [`MySql `](https://www.mysql.com/) - Database that I use in several projects to manage it
 - [`Prometheus`](https://prometheus.io/) - The monitoring platform I use for one of the projects I created
+- [`Grafana`](https://grafana.com/) - The monitoring platform I use for one of the projects I created
 
 ## Docker Project
 - [`NGINX / Wordpress / PhpMyAdmin`](https://github.com/ItsArul/docker-project/tree/main/wordpress-mysql-pma) - Is one of the projects which is popular among vocational students in Indonesia
