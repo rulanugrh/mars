@@ -1,14 +1,4 @@
 <h1 align='center'>Docker Project by ItsArul</h1>
-<div align='center'>
-    <img src= https://img.shields.io/badge/Docker-05aff2?style=for-the-badge&logo=Docker&logoColor=white />
-    <img src= https://img.shields.io/badge/Python-16a085?style=for-the-badge&logo=Python&logoColor=white />
-    <img src= https://img.shields.io/badge/PHP-808080?style=for-the-badge&logo=PHP&logoColor=white />
-    <img src= https://img.shields.io/badge/HTML5-ffd700?style=for-the-badge&logo=HTML5&logoColor=white />
-    <img src= https://img.shields.io/badge/CSS3-05aff2?style=for-the-badge&logo=CSS3&logoColor=white />
-    <img src= https://img.shields.io/badge/NGINX-16a085?style=for-the-badge&logo=NGINX&logoColor=white />
-</div>
-
-&nbsp;
 
 <div align='center'>
     <img src=https://c.tenor.com/6LyXLgF8ksUAAAAd/anime-gif.gif>
